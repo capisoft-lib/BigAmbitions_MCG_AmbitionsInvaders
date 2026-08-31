@@ -1,6 +1,10 @@
-# [MCG] Ambitions Invaders
+# [MCG] Ambitions Invaders — 1.0.0
 
 Your cash. Their faces. No negotiations.
+
+![Ambitions Invaders promotional icon](Thumbnail.jpg)
+
+The cover is promotional artwork, matching the Flappy Ambitions and Snacke series. Actual gameplay screenshots appear below.
 
 A horizontal arcade shooter for the computers in **Big Ambitions**, powered by [More Computer Games (MCG)](https://github.com/capisoft-lib/BigAmbitions_LIB_BA_MoreComputerGames). Fly the banknote from Flappy Ambitions, fire yellow lasers, and take on pixel-art versions of Huang Guo, Ingrid Schneider, Jessica Johnson and Thierry Laurent Moreau.
 
@@ -22,7 +26,7 @@ On an in-game computer, choose **Play video games**, then **Ambitions Invaders**
 
 Protect your three shield points through progressively harder waves. Collisions, enemy shots and rivals escaping past the left edge cost one point, followed by brief invulnerability. Enemy fire starts at wave two; a boss arrives every four waves. The round ends when your shield is exhausted.
 
-MCG stores local records separately for this game and ruleset. Only completed rounds count; leaving a round does not submit its score. The mod does not access the network or write directly to Big Ambitions saves. Version **0.1.0** has no soundtrack.
+MCG stores local records separately for this game and ruleset. Only completed rounds count; leaving a round does not submit its score. The mod does not access the network or write directly to Big Ambitions saves. Version **1.0.0** has no soundtrack.
 
 ## Screenshots
 
@@ -38,7 +42,7 @@ This repository publishes source code and artwork, not game or dependency binari
 
 For an upgrade from the old `AmbitionsInvaders` folder, move the old folder out of `ModsLocal` first. Keep only one installed copy. The assembly name, mod ID, catalog ID and ruleset are unchanged, so the folder rename does not reset records.
 
-Install **LIB BA More Computer Games 0.2.0+** and its separate **LIB_BaUnifiedUI 1.0.2+** dependency. Neither library is bundled. Flappy Ambitions is not required. See [required mods](REQUIRED_MODS.md).
+Install **LIB BA More Computer Games 1.0.0+** and its separate **LIB_BaUnifiedUI 1.0.2+** dependency. Neither library is bundled. Flappy Ambitions is not required. See [required mods](REQUIRED_MODS.md).
 
 ## Languages
 
@@ -46,6 +50,8 @@ The interface follows Big Ambitions and supports all **22 game languages**: Engl
 
 ## Development and rights
 
+The 1.0.0 release includes a dedicated icon, aligned mod/assembly versions and English/French publication copy. Gameplay, the 22 translations and record identifiers are preserved. See the [changelog](CHANGELOG.md) and [release files](https://github.com/capisoft-lib/BigAmbitions_MCG_AmbitionsInvaders/tree/main/releases/1.0.0). Source publication does not publish a Steam Workshop item.
+
 See [build and test instructions](docs/BUILD.md), [verification scope](VERIFICATION.md), and [publication privacy](docs/PRIVACY.md).
 
-Original code is MIT licensed. Rival portraits are AI-assisted pixel-art derivatives of Big Ambitions artwork, with [source attribution and generation prompts](ART_PROVENANCE.md). The original characters, artwork, derived portraits and screenshots are excluded from the code license; their respective rights remain with their holders. Unity and Big Ambitions assemblies are not redistributed. This is an unofficial community mod.
+Original code is MIT licensed. Rival portraits are AI-assisted pixel-art derivatives of Big Ambitions artwork, with [source attribution and generation prompts](ART_PROVENANCE.md). The original characters, artwork, derived portraits, promotional cover and screenshots are excluded from the code license; their respective rights remain with their holders. Unity and Big Ambitions assemblies are not redistributed. This is an unofficial community mod.

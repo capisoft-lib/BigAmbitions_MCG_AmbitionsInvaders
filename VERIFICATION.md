@@ -1,6 +1,8 @@
 # Verification scope
 
-The following checks cover the current 0.1.0 game sources:
+The following checks cover the 1.0.0 game sources:
+
+The release is compiled against the actual MCG package/API 1.0.0 and assembly 1.0.0.0. Invaders declares 1.0.0 in its manifest/catalog and 1.0.0.0 in its assembly/file metadata. The package contains 37 files, including its 1254 × 1254 JPEG icon; the PNG master and publication text files remain outside the installed package. Gameplay, all 22 locale files and existing record identifiers are unchanged from the audited preview.
 
 - 23 independent simulation checks: movement bounds, shooting, waves, rival behaviour, damage, invulnerability, boss rounds, scoring and game-over transitions.
 - 120 checks in an isolated Unity 2022.3.62f2 player: actual UI, game lifecycle, completed rounds, record integration and disposal.
@@ -11,6 +13,6 @@ The following checks cover the current 0.1.0 game sources:
 
 The selected English screenshots in the README come from the isolated Unity player. These checks do not establish a full native Big Ambitions session or a Steam Workshop publication. A native smoke test should cover computer entry, movement and fire, Tab exit, Escape pause, and a completed round's record after restarting the game.
 
-Local record persistence is provided by MCG. Use an MCG build containing its verified record serializer fix. A previous malformed record file that contains no score cannot be used to reconstruct a lost high score.
+Local record persistence is provided by the separate MCG 1.0.0+ dependency, including its verified record serializer fix. A previous malformed record file that contains no score cannot be used to reconstruct a lost high score.
 
 Private logs, machine paths, profile IDs and raw score files are deliberately excluded from this repository.

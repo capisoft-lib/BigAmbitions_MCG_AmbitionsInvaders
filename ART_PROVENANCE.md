@@ -2,6 +2,8 @@
 
 Derived from the four original Big Ambitions rival dialogue portraits. Generated with the imagegen tool. PNG masters copied without editing. Original artwork and characters retain their respective rights. No claim that the portraits are original MIT-licensed art.
 
+The 1.0.0 promotional cover uses these characters in the visual style of the Flappy Ambitions and Snacke icons. Its [exact prompt and references](https://github.com/capisoft-lib/BigAmbitions_MCG_AmbitionsInvaders/blob/main/release-assets/PROMPT.md) are provided separately. The PNG master retains its AI-generation provenance; the JPEG thumbnail is a same-size format export. This promotional artwork is excluded from the code license.
+
 ## huang-guo
 
 Source: the original Big Ambitions dialogue portrait for `huang-guo` (not redistributed here).
