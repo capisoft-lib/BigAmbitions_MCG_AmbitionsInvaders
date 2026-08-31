@@ -8,6 +8,6 @@
   "invaders_tagline": "Dein Geld. Ihre Gesichter. Keine Verhandlungen.",
   "invaders_game_over": "KAPITAL VERBRAUCHT",
   "invaders_start": "PFEILE / WASD: BEWEGEN    LEERTASTE / KLICK HALTEN: FEUERN\nLEERTASTE: START    |    Lass keinen Rivalen durch!",
-  "invaders_retry": "LEERTASTE / KLICK / R: NOCH MAL\nTAB: ZURÜCK ZUM GESCHÄFT",
-  "invaders_footer": "PFEILE / WASD: BEWEGEN    LEERTASTE: FEUERN    TAB: ENDE"
+  "invaders_retry": "LEERTASTE / KLICK / R: NOCH MAL",
+  "invaders_footer": "PFEILE / WASD: BEWEGEN    LEERTASTE: FEUERN"
 }

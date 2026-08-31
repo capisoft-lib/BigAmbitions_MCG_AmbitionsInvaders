@@ -8,6 +8,6 @@
   "invaders_tagline": "Senin paran. Onların yüzleri. Pazarlık yok.",
   "invaders_game_over": "SERMAYE TÜKENDİ",
   "invaders_start": "OKLAR / WASD: HAREKET    BOŞLUK / SOL TIK BASILI: ATEŞ\nBOŞLUK: BAŞLA    |    Rakipleri geçirme!",
-  "invaders_retry": "BOŞLUK / SOL TIK / R: TEKRAR\nTAB: İŞLERİNE DÖN",
-  "invaders_footer": "OKLAR / WASD: HAREKET    BOŞLUK: ATEŞ    TAB: ÇIKIŞ"
+  "invaders_retry": "BOŞLUK / SOL TIK / R: TEKRAR",
+  "invaders_footer": "OKLAR / WASD: HAREKET    BOŞLUK: ATEŞ"
 }

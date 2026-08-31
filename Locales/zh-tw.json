@@ -8,6 +8,6 @@
   "invaders_tagline": "你的錢。他們的臉。沒得談。",
   "invaders_game_over": "資金耗盡",
   "invaders_start": "方向鍵 / WASD：移動    按住空白鍵 / 滑鼠左鍵：射擊\n空白鍵：開始    |    別讓對手溜過去！",
-  "invaders_retry": "空白鍵 / 滑鼠左鍵 / R：重試\nTAB：返回經營",
-  "invaders_footer": "方向鍵 / WASD：移動    空白鍵：射擊    TAB：離開"
+  "invaders_retry": "空白鍵 / 滑鼠左鍵 / R：重試",
+  "invaders_footer": "方向鍵 / WASD：移動    空白鍵：射擊"
 }

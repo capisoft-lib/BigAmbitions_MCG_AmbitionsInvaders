@@ -8,6 +8,6 @@
   "invaders_tagline": "A te pénzed. Az ő arcuk. Nincs tárgyalás.",
   "invaders_game_over": "ELFOGYOTT A TŐKE",
   "invaders_start": "NYILAK / WASD: MOZGÁS    SPACE / EGÉRGOMB NYOMVA: TŰZ\nSPACE: INDÍTÁS    |    Ne engedd át a riválisokat!",
-  "invaders_retry": "SPACE / KATTINTÁS / R: ÚJRA\nTAB: VISSZA AZ ÜZLETHEZ",
-  "invaders_footer": "NYILAK / WASD: MOZGÁS    SPACE: TŰZ    TAB: KILÉPÉS"
+  "invaders_retry": "SPACE / KATTINTÁS / R: ÚJRA",
+  "invaders_footer": "NYILAK / WASD: MOZGÁS    SPACE: TŰZ"
 }

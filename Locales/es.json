@@ -8,6 +8,6 @@
   "invaders_tagline": "Tu dinero. Sus caras. Sin negociaciones.",
   "invaders_game_over": "CAPITAL AGOTADO",
   "invaders_start": "FLECHAS / WASD: MOVER    MANTÉN ESPACIO / CLIC: DISPARAR\nESPACIO: EMPEZAR    |    ¡No dejes pasar a tus rivales!",
-  "invaders_retry": "ESPACIO / CLIC / R: REINTENTAR\nTAB: VOLVER A LOS NEGOCIOS",
-  "invaders_footer": "FLECHAS / WASD: MOVER    ESPACIO: DISPARAR    TAB: SALIR"
+  "invaders_retry": "ESPACIO / CLIC / R: REINTENTAR",
+  "invaders_footer": "FLECHAS / WASD: MOVER    ESPACIO: DISPARAR"
 }

@@ -8,6 +8,6 @@
   "invaders_tagline": "你的钱。他们的脸。没得谈。",
   "invaders_game_over": "资金耗尽",
   "invaders_start": "方向键 / WASD：移动    按住空格 / 鼠标左键：射击\n空格：开始    |    别让对手溜过去！",
-  "invaders_retry": "空格 / 鼠标左键 / R：重试\nTAB：返回经营",
-  "invaders_footer": "方向键 / WASD：移动    空格：射击    TAB：退出"
+  "invaders_retry": "空格 / 鼠标左键 / R：重试",
+  "invaders_footer": "方向键 / WASD：移动    空格：射击"
 }

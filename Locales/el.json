@@ -8,6 +8,6 @@
   "invaders_tagline": "Τα λεφτά σας. Τα πρόσωπά τους. Καμία διαπραγμάτευση.",
   "invaders_game_over": "ΤΕΛΟΣ ΚΕΦΑΛΑΙΟΥ",
   "invaders_start": "ΒΕΛΗ / WASD: ΚΙΝΗΣΗ    ΚΡΑΤΗΣΤΕ SPACE / ΚΛΙΚ: ΠΥΡ\nSPACE: ΕΝΑΡΞΗ    |    Μην αφήσετε κανέναν αντίπαλο να περάσει!",
-  "invaders_retry": "SPACE / ΚΛΙΚ / R: ΞΑΝΑ\nTAB: ΠΙΣΩ ΣΤΙΣ ΕΠΙΧΕΙΡΗΣΕΙΣ",
-  "invaders_footer": "ΒΕΛΗ / WASD: ΚΙΝΗΣΗ    SPACE: ΠΥΡ    TAB: ΕΞΟΔΟΣ"
+  "invaders_retry": "SPACE / ΚΛΙΚ / R: ΞΑΝΑ",
+  "invaders_footer": "ΒΕΛΗ / WASD: ΚΙΝΗΣΗ    SPACE: ΠΥΡ"
 }

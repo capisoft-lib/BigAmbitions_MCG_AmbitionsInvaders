@@ -114,7 +114,7 @@ namespace AmbitionsInvaders
             Paint(_root, "Footer", 0, 0, 960, 54, _ink);
             Paint(_root, "FooterRule", 0, 53, 960, 2, new Color32(62, 87, 103, 255));
             Label(_root, "AMBITIONS INVADERS", 22, 10, 295, 31, 20, _mint);
-            Label(_root, T("footer", "ARROWS / WASD : MOVE    SPACE : FIRE    TAB : EXIT"), 321, 10, 617, 31, 14, new Color32(151, 171, 181, 255), TextAnchor.MiddleRight);
+            Label(_root, T("footer", "ARROWS / WASD : MOVE    SPACE : FIRE"), 321, 10, 617, 31, 14, new Color32(151, 171, 181, 255), TextAnchor.MiddleRight);
             _waveBanner = Label(_root, "", 230, 428, 500, 42, 23, _mint, TextAnchor.MiddleCenter);
             _bossPanel = Paint(_root, "BossStatus", 300, 418, 360, 51, new Color32(12, 15, 32, 230));
             _bossName = Label(_bossPanel, "", 8, 17, 344, 28, 17, _cream, TextAnchor.MiddleCenter);
@@ -226,7 +226,7 @@ namespace AmbitionsInvaders
             bool over = Simulation.State == InvadersState.GameOver;
             _title.text = over ? T("game_over", "CAPITAL EXHAUSTED") : "AMBITIONS INVADERS";
             _subtitle.text = over ? T("score", "SCORE") + " " + Simulation.Score + "     /     " + T("wave", "WAVE") + " " + Simulation.Wave : T("tagline", "Your cash. Their faces. No negotiations.");
-            _instructions.text = over ? T("retry", "SPACE / CLICK / R : RETRY\nTAB : RETURN TO YOUR BUSINESS") : T("start", "ARROWS / WASD : MOVE    HOLD SPACE / CLICK : FIRE\nSPACE : START    |    Don't let your rivals get past!");
+            _instructions.text = over ? T("retry", "SPACE / CLICK / R : RETRY") : T("start", "ARROWS / WASD : MOVE    HOLD SPACE / CLICK : FIRE\nSPACE : START    |    Don't let your rivals get past!");
             _lastState = Simulation.State;
         }
 

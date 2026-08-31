@@ -8,6 +8,6 @@
   "invaders_tagline": "君のカネ。奴らの顔。交渉の余地なし。",
   "invaders_game_over": "資金切れ",
   "invaders_start": "矢印キー / WASD：移動    スペース / クリック長押し：発射\nスペース：開始    |    ライバルを通すな！",
-  "invaders_retry": "スペース / クリック / R：リトライ\nTAB：ビジネスに戻る",
-  "invaders_footer": "矢印キー / WASD：移動    スペース：発射    TAB：終了"
+  "invaders_retry": "スペース / クリック / R：リトライ",
+  "invaders_footer": "矢印キー / WASD：移動    スペース：発射"
 }

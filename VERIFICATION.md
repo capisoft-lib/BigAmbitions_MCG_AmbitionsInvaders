@@ -2,11 +2,11 @@
 
 The following checks cover the 1.0.0 game sources:
 
-The release is compiled against the actual MCG package/API 1.0.0 and assembly 1.0.0.0. Invaders declares 1.0.0 in its manifest/catalog and 1.0.0.0 in its assembly/file metadata. The package contains 37 files, including its 1254 × 1254 JPEG icon; the PNG master and publication text files remain outside the installed package. Gameplay, all 22 locale files and existing record identifiers are unchanged from the audited preview.
+The release is compiled against the actual MCG package/API 1.0.0 and assembly 1.0.0.0. Invaders declares 1.0.0 in its manifest/catalog and 1.0.0.0 in its assembly/file metadata. The package contains 37 files, including its 1254 × 1254 JPEG icon; the PNG master and publication text files remain outside the installed package. Gameplay and existing record identifiers are unchanged from the audited preview.
 
 - 23 independent simulation checks: movement bounds, shooting, waves, rival behaviour, damage, invulnerability, boss rounds, scoring and game-over transitions.
 - 120 checks in an isolated Unity 2022.3.62f2 player: actual UI, game lifecycle, completed rounds, record integration and disposal.
-- All 22 locale files have the same 11 non-empty keys. The exit hints use Tab to match MCG.
+- All 22 locale files have the same 11 non-empty keys. Host navigation hints are displayed by MCG; Invaders only displays its own gameplay controls.
 - An isolated localization player renders ready, combat and game-over states in all 22 languages: 66 screenshots, 814 label layout checks and 22 glyph checks, without missing glyphs, oversized labels or localization fallbacks.
 - The release DLL is checked against the game and MCG APIs, uses the native Mono profile and has no embedded dependency DLLs, PDB references or private build paths.
 - The standalone source and an exported Git candidate produce identical package contents.

@@ -8,6 +8,6 @@
   "invaders_tagline": "Jouw geld. Hun gezichten. Geen onderhandelingen.",
   "invaders_game_over": "KAPITAAL OP",
   "invaders_start": "PIJLEN / WASD: BEWEGEN    SPATIE / KLIK VASTHOUDEN: VUREN\nSPATIE: START    |    Laat geen rivalen voorbij!",
-  "invaders_retry": "SPATIE / KLIK / R: OPNIEUW\nTAB: TERUG NAAR JE BEDRIJF",
-  "invaders_footer": "PIJLEN / WASD: BEWEGEN    SPATIE: VUREN    TAB: AFSLUITEN"
+  "invaders_retry": "SPATIE / KLIK / R: OPNIEUW",
+  "invaders_footer": "PIJLEN / WASD: BEWEGEN    SPATIE: VUREN"
 }

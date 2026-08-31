@@ -8,6 +8,6 @@
   "invaders_tagline": "Twoje pieniądze. Ich twarze. Bez negocjacji.",
   "invaders_game_over": "KAPITAŁ WYCZERPANY",
   "invaders_start": "STRZAŁKI / WASD: RUCH    TRZYMAJ SPACJĘ / KLIK: STRZELAJ\nSPACJA: START    |    Nie przepuszczaj rywali!",
-  "invaders_retry": "SPACJA / KLIK / R: PONÓW\nTAB: POWRÓT DO INTERESÓW",
-  "invaders_footer": "STRZAŁKI / WASD: RUCH    SPACJA: STRZAŁ    TAB: WYJŚCIE"
+  "invaders_retry": "SPACJA / KLIK / R: PONÓW",
+  "invaders_footer": "STRZAŁKI / WASD: RUCH    SPACJA: STRZAŁ"
 }

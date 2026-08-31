@@ -8,6 +8,6 @@
   "invaders_tagline": "Votre argent. Leurs têtes. Aucune négociation.",
   "invaders_game_over": "CAPITAL ÉPUISÉ",
   "invaders_start": "FLÈCHES / ZQSD : BOUGER    ESPACE / CLIC MAINTENU : TIRER\nESPACE : JOUER    |    Ne laissez pas passer vos rivaux !",
-  "invaders_retry": "ESPACE / CLIC / R : REJOUER\nTAB : RETOUR AUX AFFAIRES",
-  "invaders_footer": "FLÈCHES / ZQSD : BOUGER    ESPACE : TIRER    TAB : QUITTER"
+  "invaders_retry": "ESPACE / CLIC / R : REJOUER",
+  "invaders_footer": "FLÈCHES / ZQSD : BOUGER    ESPACE : TIRER"
 }
