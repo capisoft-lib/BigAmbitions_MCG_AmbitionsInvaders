@@ -1,8 +1,8 @@
+![Ambitions Invaders promotional icon](Thumbnail.jpg)
+
 # [MCG] Ambitions Invaders — 1.0.0
 
 Your cash. Their faces. No negotiations.
-
-![Ambitions Invaders promotional icon](Thumbnail.jpg)
 
 The cover is promotional artwork, matching the Flappy Ambitions and Snacke series. Actual gameplay screenshots appear below.
 
@@ -55,3 +55,7 @@ The 1.0.0 release includes a dedicated icon, aligned mod/assembly versions and E
 See [build and test instructions](docs/BUILD.md), [verification scope](VERIFICATION.md), and [publication privacy](docs/PRIVACY.md).
 
 Original code is MIT licensed. Rival portraits are AI-assisted pixel-art derivatives of Big Ambitions artwork, with [source attribution and generation prompts](ART_PROVENANCE.md). The original characters, artwork, derived portraits, promotional cover and screenshots are excluded from the code license; their respective rights remain with their holders. Unity and Big Ambitions assemblies are not redistributed. This is an unofficial community mod.
+
+## Support Ambitions Invaders
+
+**[Buy me a coffee](https://buymeacoffee.com/capitaine)** to support future updates.
