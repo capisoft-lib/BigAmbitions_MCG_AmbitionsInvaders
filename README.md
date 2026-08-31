@@ -42,7 +42,7 @@ This repository publishes source code and artwork, not game or dependency binari
 
 For an upgrade from the old `AmbitionsInvaders` folder, move the old folder out of `ModsLocal` first. Keep only one installed copy. The assembly name, mod ID, catalog ID and ruleset are unchanged, so the folder rename does not reset records.
 
-Install **LIB BA More Computer Games 1.0.0+** and its separate **LIB_BaUnifiedUI 1.0.2+** dependency. Neither library is bundled. Flappy Ambitions is not required. See [required mods](REQUIRED_MODS.md).
+Install **LIB BA More Computer Games 1.0.0+** separately. It is the only required mod library, and its DLL is not bundled. Flappy Ambitions is not required. See [required mods](REQUIRED_MODS.md).
 
 ## Languages
 

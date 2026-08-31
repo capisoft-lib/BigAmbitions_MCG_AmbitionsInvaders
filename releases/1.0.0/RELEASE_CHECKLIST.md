@@ -28,7 +28,7 @@ Icon: [Thumbnail.jpg](../../Thumbnail.jpg). The [PNG master](../../release-asset
 - [ ] On a copy of a save, test native computer entry, movement/fire, completed rounds, Tab exit, Backspace menu, Escape pause and records after restarting Big Ambitions.
 - [ ] Check the English/French UI and actual thumbnail in the Steam publication interface.
 - [ ] Select only the built `MCG_AmbitionsInvaders` directory as mod content, never the source repository, parent build directory or dependencies.
-- [ ] Declare the real MCG Workshop item under Required Items. MCG must separately declare BAUI 1.0.2+. Replace the MCG GitHub link in both descriptions with its real Workshop link when available; do not invent an item ID.
+- [ ] Declare the real MCG Workshop item under Required Items. No other mod library is required. Replace the MCG GitHub link in both descriptions with its real Workshop link when available; do not invent an item ID.
 - [ ] Test a downloaded Workshop copy without an active duplicate ModsLocal installation, then choose the intended visibility.
 
 Steam upload, item creation and visibility changes are not performed by this preparation. Publishing sources on GitHub is separate from publishing a compiled release asset.

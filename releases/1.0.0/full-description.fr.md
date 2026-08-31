@@ -19,9 +19,8 @@ Ambitions Invaders ajoute un shoot’em up horizontal aux ordinateurs de Big Amb
 [list]
 [*]Big Ambitions 1.0 sur Windows (Mono) ; cible de compilation : Build 3670 / Unity 2022.3.62f2.
 [*][url=https://github.com/capisoft-lib/BigAmbitions_LIB_BA_MoreComputerGames][b]LIB BA More Computer Games (MCG) 1.0.0+[/b][/url], installé et activé séparément.
-[*][b]LIB BA Unified UI 1.0.2+[/b], la dépendance distincte de MCG.
 [/list]
-Ce mod contient uniquement Ambitions Invaders. Aucune DLL de MCG, BAUI ou du jeu n'est embarquée. Flappy Ambitions et Snacke ne sont pas requis. Le casse-briques d'origine reste disponible via MCG.
+Ce mod contient uniquement Ambitions Invaders. MCG est la seule bibliothèque de mod requise. Aucune DLL de MCG ou du jeu n'est embarquée. Flappy Ambitions et Snacke ne sont pas requis. Le casse-briques d'origine reste disponible via MCG.
 
 [b]Comment jouer[/b]
 Sur un ordinateur utilisable, choisissez [b]Jouer aux jeux vidéo[/b], puis [b]Ambitions Invaders[/b] dans MCG.
