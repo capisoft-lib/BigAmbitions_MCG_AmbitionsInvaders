@@ -1,0 +1,13 @@
+{
+  "invaders_description": "지폐를 조종해 몰려오는 라이벌 재벌들을 격추하세요.",
+  "invaders_score": "점수",
+  "invaders_record": "최고 기록",
+  "invaders_wave": "웨이브",
+  "invaders_shield": "방어막",
+  "invaders_eyebrow": "적대적 인수. 레이저와 함께.",
+  "invaders_tagline": "당신의 돈. 놈들의 얼굴. 협상은 없다.",
+  "invaders_game_over": "자금 소진",
+  "invaders_start": "방향키 / WASD: 이동    스페이스 / 클릭 길게 누르기: 발사\n스페이스: 시작    |    라이벌이 지나가지 못하게 하세요!",
+  "invaders_retry": "스페이스 / 클릭 / R: 다시 도전\nTAB: 사업으로 돌아가기",
+  "invaders_footer": "방향키 / WASD: 이동    스페이스: 발사    TAB: 종료"
+}

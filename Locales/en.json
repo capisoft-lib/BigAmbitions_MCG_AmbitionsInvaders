@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Pilot your banknote and blast waves of rival tycoons.",
+  "invaders_score": "SCORE",
+  "invaders_record": "RECORD",
+  "invaders_wave": "WAVE",
+  "invaders_shield": "SHIELD",
+  "invaders_eyebrow": "A HOSTILE TAKEOVER. WITH LASERS.",
+  "invaders_tagline": "Your cash. Their faces. No negotiations.",
+  "invaders_game_over": "CAPITAL EXHAUSTED",
+  "invaders_start": "ARROWS / WASD : MOVE    HOLD SPACE / CLICK : FIRE\nSPACE : START    |    Don't let your rivals get past!",
+  "invaders_retry": "SPACE / CLICK / R : RETRY\nTAB : RETURN TO YOUR BUSINESS",
+  "invaders_footer": "ARROWS / WASD : MOVE    SPACE : FIRE    TAB : EXIT"
+}

@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Bestuur je bankbiljet en schiet golven rivaliserende tycoons neer.",
+  "invaders_score": "PUNTEN",
+  "invaders_record": "RECORD",
+  "invaders_wave": "GOLF",
+  "invaders_shield": "SCHILD",
+  "invaders_eyebrow": "EEN VIJANDIGE OVERNAME. MET LASERS.",
+  "invaders_tagline": "Jouw geld. Hun gezichten. Geen onderhandelingen.",
+  "invaders_game_over": "KAPITAAL OP",
+  "invaders_start": "PIJLEN / WASD: BEWEGEN    SPATIE / KLIK VASTHOUDEN: VUREN\nSPATIE: START    |    Laat geen rivalen voorbij!",
+  "invaders_retry": "SPATIE / KLIK / R: OPNIEUW\nTAB: TERUG NAAR JE BEDRIJF",
+  "invaders_footer": "PIJLEN / WASD: BEWEGEN    SPATIE: VUREN    TAB: AFSLUITEN"
+}

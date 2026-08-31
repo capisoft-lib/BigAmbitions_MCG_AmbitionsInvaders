@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Pilotează-ți bancnota și doboară valuri de magnați rivali.",
+  "invaders_score": "PUNCTE",
+  "invaders_record": "RECORD",
+  "invaders_wave": "VAL",
+  "invaders_shield": "SCUT",
+  "invaders_eyebrow": "O PRELUARE OSTILĂ. CU LASERE.",
+  "invaders_tagline": "Banii tăi. Fețele lor. Fără negocieri.",
+  "invaders_game_over": "CAPITAL EPUIZAT",
+  "invaders_start": "SĂGEȚI / WASD: MIȘCARE    ȚINE SPAȚIU / CLIC: TRAGE\nSPAȚIU: START    |    Nu lăsa rivalii să treacă!",
+  "invaders_retry": "SPAȚIU / CLIC / R: REÎNCEARCĂ\nTAB: ÎNAPOI LA AFACERI",
+  "invaders_footer": "SĂGEȚI / WASD: MIȘCARE    SPAȚIU: TRAGE    TAB: IEȘIRE"
+}

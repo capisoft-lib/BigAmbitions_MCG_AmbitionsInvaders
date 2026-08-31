@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Styr din pengeseddel, og skyd bølger af rivaliserende rigmænd ned.",
+  "invaders_score": "POINT",
+  "invaders_record": "REKORD",
+  "invaders_wave": "BØLGE",
+  "invaders_shield": "SKJOLD",
+  "invaders_eyebrow": "FJENDTLIG OVERTAGELSE. MED LASERE.",
+  "invaders_tagline": "Dine penge. Deres ansigter. Ingen forhandling.",
+  "invaders_game_over": "KAPITAL OPBRUGT",
+  "invaders_start": "PILE / WASD: FLYT    HOLD MELLEMRUM / KLIK: SKYD\nMELLEMRUM: START    |    Lad ingen rivaler slippe forbi!",
+  "invaders_retry": "MELLEMRUM / KLIK / R: PRØV IGEN\nTAB: TILBAGE TIL FORRETNINGEN",
+  "invaders_footer": "PILE / WASD: FLYT    MELLEMRUM: SKYD    TAB: AFSLUT"
+}

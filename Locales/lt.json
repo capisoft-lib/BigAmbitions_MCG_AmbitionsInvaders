@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Pilotuokite savo banknotą ir numuškite bangomis puolančius varžovus magnatus.",
+  "invaders_score": "TAŠKAI",
+  "invaders_record": "REKORDAS",
+  "invaders_wave": "BANGA",
+  "invaders_shield": "SKYDAS",
+  "invaders_eyebrow": "PRIEŠIŠKAS PERĖMIMAS. SU LAZERIAIS.",
+  "invaders_tagline": "Jūsų pinigai. Jų veidai. Jokių derybų.",
+  "invaders_game_over": "KAPITALAS IŠSEKO",
+  "invaders_start": "RODYKLĖS / WASD: JUDĖTI    LAIKYTI TARPĄ / PELĖS MYGT.: ŠAUTI\nTARPAS: PRADĖTI    |    Nepraleiskite varžovų!",
+  "invaders_retry": "TARPAS / SPUSTELĖJIMAS / R: IŠ NAUJO\nTAB: GRĮŽTI PRIE VERSLO",
+  "invaders_footer": "RODYKLĖS / WASD: JUDĖTI    TARPAS: ŠAUTI    TAB: IŠEITI"
+}

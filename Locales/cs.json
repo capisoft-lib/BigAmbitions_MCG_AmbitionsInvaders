@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Pilotujte svou bankovku a sestřelujte vlny konkurenčních magnátů.",
+  "invaders_score": "SKÓRE",
+  "invaders_record": "REKORD",
+  "invaders_wave": "VLNA",
+  "invaders_shield": "ŠTÍT",
+  "invaders_eyebrow": "NEPŘÁTELSKÉ PŘEVZETÍ. S LASERY.",
+  "invaders_tagline": "Vaše peníze. Jejich tváře. Žádné vyjednávání.",
+  "invaders_game_over": "KAPITÁL VYČERPÁN",
+  "invaders_start": "ŠIPKY / WASD: POHYB    DRŽET MEZERNÍK / KLIK: STŘELBA\nMEZERNÍK: START    |    Nepusťte soupeře dál!",
+  "invaders_retry": "MEZERNÍK / KLIK / R: ZNOVU\nTAB: ZPĚT K PODNIKÁNÍ",
+  "invaders_footer": "ŠIPKY / WASD: POHYB    MEZERNÍK: STŘELBA    TAB: KONEC"
+}

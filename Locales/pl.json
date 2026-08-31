@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Pilotuj swój banknot i zestrzeliwuj fale rywalizujących potentatów.",
+  "invaders_score": "PUNKTY",
+  "invaders_record": "REKORD",
+  "invaders_wave": "FALA",
+  "invaders_shield": "TARCZA",
+  "invaders_eyebrow": "WROGIE PRZEJĘCIE. Z LASERAMI.",
+  "invaders_tagline": "Twoje pieniądze. Ich twarze. Bez negocjacji.",
+  "invaders_game_over": "KAPITAŁ WYCZERPANY",
+  "invaders_start": "STRZAŁKI / WASD: RUCH    TRZYMAJ SPACJĘ / KLIK: STRZELAJ\nSPACJA: START    |    Nie przepuszczaj rywali!",
+  "invaders_retry": "SPACJA / KLIK / R: PONÓW\nTAB: POWRÓT DO INTERESÓW",
+  "invaders_footer": "STRZAŁKI / WASD: RUCH    SPACJA: STRZAŁ    TAB: WYJŚCIE"
+}

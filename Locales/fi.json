@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Ohjaa seteliäsi ja ammu alas kilpailevien pohattojen aaltoja.",
+  "invaders_score": "PISTEET",
+  "invaders_record": "ENNÄTYS",
+  "invaders_wave": "AALTO",
+  "invaders_shield": "SUOJA",
+  "invaders_eyebrow": "VIHAMIELINEN VALTAUS. LASEREILLA.",
+  "invaders_tagline": "Sinun rahasi. Heidän naamansa. Ei neuvotteluja.",
+  "invaders_game_over": "PÄÄOMA LOPUSSA",
+  "invaders_start": "NUOLET / WASD: LIIKU    VÄLILYÖNTI / HIIRI POHJASSA: AMMU\nVÄLILYÖNTI: ALOITA    |    Älä päästä kilpailijoita ohi!",
+  "invaders_retry": "VÄLILYÖNTI / KLIKKAUS / R: UUDELLEEN\nTAB: TAKAISIN LIIKEASIOIHIN",
+  "invaders_footer": "NUOLET / WASD: LIIKU    VÄLILYÖNTI: AMMU    TAB: POISTU"
+}

@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Vezesd a bankjegyedet, és lődd le a rivális mágnások hullámait.",
+  "invaders_score": "PONT",
+  "invaders_record": "REKORD",
+  "invaders_wave": "HULLÁM",
+  "invaders_shield": "PAJZS",
+  "invaders_eyebrow": "ELLENSÉGES FELVÁSÁRLÁS. LÉZEREKKEL.",
+  "invaders_tagline": "A te pénzed. Az ő arcuk. Nincs tárgyalás.",
+  "invaders_game_over": "ELFOGYOTT A TŐKE",
+  "invaders_start": "NYILAK / WASD: MOZGÁS    SPACE / EGÉRGOMB NYOMVA: TŰZ\nSPACE: INDÍTÁS    |    Ne engedd át a riválisokat!",
+  "invaders_retry": "SPACE / KATTINTÁS / R: ÚJRA\nTAB: VISSZA AZ ÜZLETHEZ",
+  "invaders_footer": "NYILAK / WASD: MOZGÁS    SPACE: TŰZ    TAB: KILÉPÉS"
+}

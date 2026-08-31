@@ -1,0 +1,13 @@
+{
+  "invaders_description": "紙幣を操り、次々と襲い来るライバルの大富豪たちを撃ち落とそう。",
+  "invaders_score": "スコア",
+  "invaders_record": "ハイスコア",
+  "invaders_wave": "ウェーブ",
+  "invaders_shield": "シールド",
+  "invaders_eyebrow": "敵対的買収。レーザー付き。",
+  "invaders_tagline": "君のカネ。奴らの顔。交渉の余地なし。",
+  "invaders_game_over": "資金切れ",
+  "invaders_start": "矢印キー / WASD：移動    スペース / クリック長押し：発射\nスペース：開始    |    ライバルを通すな！",
+  "invaders_retry": "スペース / クリック / R：リトライ\nTAB：ビジネスに戻る",
+  "invaders_footer": "矢印キー / WASD：移動    スペース：発射    TAB：終了"
+}

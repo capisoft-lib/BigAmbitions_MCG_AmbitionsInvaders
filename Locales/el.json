@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Πιλοτάρετε το χαρτονόμισμά σας και καταρρίψτε κύματα αντίπαλων μεγιστάνων.",
+  "invaders_score": "ΣΚΟΡ",
+  "invaders_record": "ΡΕΚΟΡ",
+  "invaders_wave": "ΚΥΜΑ",
+  "invaders_shield": "ΑΣΠΙΔΑ",
+  "invaders_eyebrow": "ΕΠΙΘΕΤΙΚΗ ΕΞΑΓΟΡΑ. ΜΕ ΛΕΪΖΕΡ.",
+  "invaders_tagline": "Τα λεφτά σας. Τα πρόσωπά τους. Καμία διαπραγμάτευση.",
+  "invaders_game_over": "ΤΕΛΟΣ ΚΕΦΑΛΑΙΟΥ",
+  "invaders_start": "ΒΕΛΗ / WASD: ΚΙΝΗΣΗ    ΚΡΑΤΗΣΤΕ SPACE / ΚΛΙΚ: ΠΥΡ\nSPACE: ΕΝΑΡΞΗ    |    Μην αφήσετε κανέναν αντίπαλο να περάσει!",
+  "invaders_retry": "SPACE / ΚΛΙΚ / R: ΞΑΝΑ\nTAB: ΠΙΣΩ ΣΤΙΣ ΕΠΙΧΕΙΡΗΣΕΙΣ",
+  "invaders_footer": "ΒΕΛΗ / WASD: ΚΙΝΗΣΗ    SPACE: ΠΥΡ    TAB: ΕΞΟΔΟΣ"
+}

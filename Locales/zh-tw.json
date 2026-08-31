@@ -1,0 +1,13 @@
+{
+  "invaders_description": "駕駛你的鈔票，擊落一波波來襲的商業對手。",
+  "invaders_score": "得分",
+  "invaders_record": "最高紀錄",
+  "invaders_wave": "波次",
+  "invaders_shield": "護盾",
+  "invaders_eyebrow": "惡意併購。雷射開路。",
+  "invaders_tagline": "你的錢。他們的臉。沒得談。",
+  "invaders_game_over": "資金耗盡",
+  "invaders_start": "方向鍵 / WASD：移動    按住空白鍵 / 滑鼠左鍵：射擊\n空白鍵：開始    |    別讓對手溜過去！",
+  "invaders_retry": "空白鍵 / 滑鼠左鍵 / R：重試\nTAB：返回經營",
+  "invaders_footer": "方向鍵 / WASD：移動    空白鍵：射擊    TAB：離開"
+}

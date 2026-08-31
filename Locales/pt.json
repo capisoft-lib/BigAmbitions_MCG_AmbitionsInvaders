@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Pilote sua nota de dinheiro e derrube ondas de magnatas rivais.",
+  "invaders_score": "PONTOS",
+  "invaders_record": "RECORDE",
+  "invaders_wave": "ONDA",
+  "invaders_shield": "ESCUDO",
+  "invaders_eyebrow": "UMA AQUISIÇÃO HOSTIL. COM LASERS.",
+  "invaders_tagline": "Seu dinheiro. A cara deles. Sem negociação.",
+  "invaders_game_over": "CAPITAL ESGOTADO",
+  "invaders_start": "SETAS / WASD: MOVER    SEGURE ESPAÇO / CLIQUE: ATIRAR\nESPAÇO: COMEÇAR    |    Não deixe os rivais passarem!",
+  "invaders_retry": "ESPAÇO / CLIQUE / R: TENTAR DE NOVO\nTAB: VOLTAR AOS NEGÓCIOS",
+  "invaders_footer": "SETAS / WASD: MOVER    ESPAÇO: ATIRAR    TAB: SAIR"
+}

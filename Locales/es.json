@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Pilota tu billete y derriba oleadas de magnates rivales.",
+  "invaders_score": "PUNTOS",
+  "invaders_record": "RÉCORD",
+  "invaders_wave": "OLEADA",
+  "invaders_shield": "ESCUDO",
+  "invaders_eyebrow": "UNA OPA HOSTIL. CON LÁSERES.",
+  "invaders_tagline": "Tu dinero. Sus caras. Sin negociaciones.",
+  "invaders_game_over": "CAPITAL AGOTADO",
+  "invaders_start": "FLECHAS / WASD: MOVER    MANTÉN ESPACIO / CLIC: DISPARAR\nESPACIO: EMPEZAR    |    ¡No dejes pasar a tus rivales!",
+  "invaders_retry": "ESPACIO / CLIC / R: REINTENTAR\nTAB: VOLVER A LOS NEGOCIOS",
+  "invaders_footer": "FLECHAS / WASD: MOVER    ESPACIO: DISPARAR    TAB: SALIR"
+}

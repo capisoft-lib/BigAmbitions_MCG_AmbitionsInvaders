@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Pilota la tua banconota e abbatti ondate di magnati rivali.",
+  "invaders_score": "PUNTI",
+  "invaders_record": "RECORD",
+  "invaders_wave": "ONDATA",
+  "invaders_shield": "SCUDO",
+  "invaders_eyebrow": "UNA SCALATA OSTILE. CON I LASER.",
+  "invaders_tagline": "I tuoi soldi. Le loro facce. Niente trattative.",
+  "invaders_game_over": "CAPITALE ESAURITO",
+  "invaders_start": "FRECCE / WASD: MUOVI    TIENI PREMUTO SPAZIO / CLIC: SPARA\nSPAZIO: INIZIA    |    Non far passare i rivali!",
+  "invaders_retry": "SPAZIO / CLIC / R: RIPROVA\nTAB: TORNA AGLI AFFARI",
+  "invaders_footer": "FRECCE / WASD: MUOVI    SPAZIO: SPARA    TAB: ESCI"
+}

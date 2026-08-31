@@ -1,0 +1,13 @@
+{
+  "invaders_description": "Banknotunu yönlendir ve dalgalar hâlinde gelen rakip iş insanlarını vur.",
+  "invaders_score": "PUAN",
+  "invaders_record": "REKOR",
+  "invaders_wave": "DALGA",
+  "invaders_shield": "KALKAN",
+  "invaders_eyebrow": "DÜŞMANCA DEVRALMA. LAZERLERLE.",
+  "invaders_tagline": "Senin paran. Onların yüzleri. Pazarlık yok.",
+  "invaders_game_over": "SERMAYE TÜKENDİ",
+  "invaders_start": "OKLAR / WASD: HAREKET    BOŞLUK / SOL TIK BASILI: ATEŞ\nBOŞLUK: BAŞLA    |    Rakipleri geçirme!",
+  "invaders_retry": "BOŞLUK / SOL TIK / R: TEKRAR\nTAB: İŞLERİNE DÖN",
+  "invaders_footer": "OKLAR / WASD: HAREKET    BOŞLUK: ATEŞ    TAB: ÇIKIŞ"
+}
