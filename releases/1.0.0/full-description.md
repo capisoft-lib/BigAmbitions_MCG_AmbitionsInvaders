@@ -1,5 +1,8 @@
 [b][MCG] Ambitions Invaders 1.0.0[/b]
 
+[b]LIB MCG required — install before playing[/b]
+[b]Ambitions Invaders does not work without [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3793604724]LIB BA More Computer Games (MCG) 1.0.0+[/url] installed and enabled.[/b] Subscribe to LIB MCG on Steam Workshop, wait for the download, then enable MCG and Ambitions Invaders in Big Ambitions' mod list. MCG is the only required mod library.
+
 Your cash. Their faces. No negotiations.
 
 Ambitions Invaders adds a horizontal arcade shooter to the computers in Big Ambitions through More Computer Games (MCG). Pilot a banknote in two dimensions and fire yellow lasers to the right. Your rivals are coming for your capital. This time, you can shoot back.
@@ -18,7 +21,7 @@ Ambitions Invaders adds a horizontal arcade shooter to the computers in Big Ambi
 [b]Requirements[/b]
 [list]
 [*]Big Ambitions 1.0 on Windows (Mono); build target: Build 3670 / Unity 2022.3.62f2.
-[*][url=https://github.com/capisoft-lib/BigAmbitions_LIB_BA_MoreComputerGames][b]LIB BA More Computer Games (MCG) 1.0.0+[/b][/url], installed and enabled separately.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3793604724][b]LIB BA More Computer Games (MCG) 1.0.0+[/b][/url], installed and enabled separately.
 [/list]
 This mod contains Ambitions Invaders only. MCG is the only required mod library. No MCG or game DLL is bundled. Flappy Ambitions and Snacke are not required. The original brick-breaker remains available through MCG.
 

@@ -1,1 +1,1 @@
-Fly your banknote, fire yellow lasers and face pixel-art rival tycoons in this horizontal arcade shooter for Big Ambitions. Local records and all 22 game languages. Requires More Computer Games (MCG) 1.0.0+.
+Fly a banknote and fire yellow lasers at pixel-art rivals in Big Ambitions. Local records, 22 languages. Requires LIB BA More Computer Games (MCG) 1.0.0+ installed and enabled; does not work without it.

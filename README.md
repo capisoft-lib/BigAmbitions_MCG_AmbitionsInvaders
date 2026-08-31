@@ -10,6 +10,10 @@ A horizontal arcade shooter for the computers in **Big Ambitions**, powered by [
 
 ![Ambitions Invaders in combat, English UI](https://raw.githubusercontent.com/capisoft-lib/BigAmbitions_MCG_AmbitionsInvaders/main/release-assets/screenshots/combat-en.png)
 
+## Required library — install first
+
+**Ambitions Invaders does not work without [LIB BA More Computer Games (MCG) 1.0.0+](https://steamcommunity.com/sharedfiles/filedetails/?id=3793604724) installed and enabled.** Subscribe to LIB MCG on Steam Workshop, let Steam download it, then enable both MCG and Ambitions Invaders in Big Ambitions' mod list. MCG is the only required mod library; it provides the computer game menu and runs this mini-game.
+
 ## Play
 
 On an in-game computer, choose **Play video games**, then **Ambitions Invaders** in MCG.
@@ -42,7 +46,7 @@ This repository publishes source code and artwork, not game or dependency binari
 
 For an upgrade from the old `AmbitionsInvaders` folder, move the old folder out of `ModsLocal` first. Keep only one installed copy. The assembly name, mod ID, catalog ID and ruleset are unchanged, so the folder rename does not reset records.
 
-Install **LIB BA More Computer Games 1.0.0+** separately. It is the only required mod library, and its DLL is not bundled. Flappy Ambitions is not required. See [required mods](REQUIRED_MODS.md).
+Install and enable **[LIB BA More Computer Games (MCG) 1.0.0+ on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3793604724)** separately. It is the only required mod library, and its DLL is not bundled. Flappy Ambitions is not required. For Steam publication, add this MCG Workshop item to Ambitions Invaders' **Required Items**; see [required mods](REQUIRED_MODS.md).
 
 ## Languages
 
