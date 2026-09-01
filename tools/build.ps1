@@ -19,11 +19,11 @@ $mcgManifestText = Get-Content -LiteralPath $mcgManifestPath -Raw
 if ($mcgManifestText -notmatch '(?m)^\s+ModId: LIB_BaComputerGames\s*$') { throw 'MCG manifest has the wrong mod ID.' }
 if ($mcgManifestText -notmatch '(?m)^\s+Version: (\d+\.\d+\.\d+)\s*$') { throw 'MCG manifest must declare a numeric version.' }
 $mcgPackageVersion = [version]$Matches[1]
-if ($mcgPackageVersion -lt [version]'1.0.0') { throw 'Ambitions Invaders 1.0.0 requires the final MCG 1.0.0+ package.' }
+if ($mcgPackageVersion -lt [version]'1.0.1') { throw 'Ambitions Invaders 1.0.1 requires the final MCG 1.0.1+ package.' }
 $manifestText = Get-Content -LiteralPath (Join-Path $repo 'ModManifest.asset') -Raw
-if ($manifestText -notmatch '(?m)^  Version: 1\.0\.0\s*$' -or $manifestText -notmatch '(?m)^  ModId: AmbitionsInvaders\s*$') { throw 'Unexpected Invaders manifest version or ID.' }
+if ($manifestText -notmatch '(?m)^  Version: 1\.0\.1\s*$' -or $manifestText -notmatch '(?m)^  ModId: AmbitionsInvaders\s*$') { throw 'Unexpected Invaders manifest version or ID.' }
 $catalogText = Get-Content -LiteralPath (Join-Path $repo 'Scripts/AmbitionsInvadersMod.cs') -Raw
-if ($catalogText -notmatch 'version: "1\.0\.0"' -or !$catalogText.Contains('"capisoft:ambitions-invaders"') -or !$catalogText.Contains('"invaders-standard-v1"')) { throw 'Unexpected Invaders catalog version or record identifiers.' }
+if ($catalogText -notmatch 'version: "1\.0\.1"' -or !$catalogText.Contains('"capisoft:ambitions-invaders"') -or !$catalogText.Contains('"invaders-standard-v1"')) { throw 'Unexpected Invaders catalog version or record identifiers.' }
 $editorData = Join-Path (Split-Path $editor -Parent) 'Data'
 $managed = Join-Path $game 'Big Ambitions_Data/Managed'
 foreach ($binary in @($editor, (Join-Path $game 'UnityPlayer.dll'))) {
@@ -46,10 +46,10 @@ try {
     $versionType = $dependency.MainModule.GetType('Capisoft.Lib.BaComputerGames.ComputerGames')
     if (!$versionType) { throw 'MCG public API is missing.' }
     $versionField = $versionType.Fields | Where-Object Name -eq 'ApiVersion'
-    if (!$versionField -or [version]$versionField.Constant -lt [version]'1.0.0') { throw 'MCG API 1.0.0 or later is required.' }
+    if (!$versionField -or [version]$versionField.Constant -lt [version]'1.0.1') { throw 'MCG API 1.0.1 or later is required.' }
     $mcgApiVersion = [string]$versionField.Constant
     $mcgAssemblyVersion = [string]$dependency.Name.Version
-    if ($dependency.Name.Version -lt [version]'1.0.0.0') { throw 'The final MCG assembly version is required.' }
+    if ($dependency.Name.Version -lt [version]'1.0.1.0') { throw 'The final MCG assembly version is required.' }
 }
 finally { $dependency.Dispose() }
 
@@ -119,10 +119,10 @@ try {
     if (@($entryMetadataTypes | Where-Object { $_.FullName -like 'Capisoft.Lib.BaComputerGames*' }).Count) {
         throw 'The registered Invaders entry metadata must resolve without MCG.'
     }
-    if ([string]$built.Name.Version -ne '1.0.0.0') { throw 'Unexpected Invaders assembly version.' }
+    if ([string]$built.Name.Version -ne '1.0.1.0') { throw 'Unexpected Invaders assembly version.' }
     $fileVersion = $built.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'System.Reflection.AssemblyFileVersionAttribute' }
     $infoVersion = $built.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'System.Reflection.AssemblyInformationalVersionAttribute' }
-    if (!$fileVersion -or $fileVersion.ConstructorArguments[0].Value -ne '1.0.0.0' -or !$infoVersion -or $infoVersion.ConstructorArguments[0].Value -ne '1.0.0') { throw 'Unexpected Invaders file/informational version.' }
+    if (!$fileVersion -or $fileVersion.ConstructorArguments[0].Value -ne '1.0.1.0' -or !$infoVersion -or $infoVersion.ConstructorArguments[0].Value -ne '1.0.1') { throw 'Unexpected Invaders file/informational version.' }
     $mcgReference = $built.MainModule.AssemblyReferences | Where-Object Name -eq 'LIB_BaComputerGames'
     if ([string]$mcgReference.Version -ne $mcgAssemblyVersion) { throw 'MCG reference differs from compiler input.' }
     if ($assemblyRefs -contains 'ComputerArcade' -or $assemblyRefs -contains 'ComputerGameHighScore' -or $assemblyRefs -contains 'FlappyAmbition' -or $assemblyRefs -contains 'LIB_BaUnifiedUI' -or $assemblyRefs -contains 'UnityEditor') { throw 'Unexpected game/leaderboard dependency.' }
@@ -163,8 +163,8 @@ if (@(Get-ChildItem -LiteralPath $package -Recurse -File | Where-Object Extensio
 if ((Get-FileHash -LiteralPath $mcg -Algorithm SHA256).Hash -ne $mcgHash) { throw 'MCG changed during compilation; rebuild against a stable dependency.' }
 if ((Get-FileHash -LiteralPath $mcgManifestPath -Algorithm SHA256).Hash -ne $mcgManifestHash) { throw 'MCG manifest changed during compilation.' }
 $buildStatus = [ordered]@{
-    Version = '1.0.0'
-    AssemblyVersion = '1.0.0.0'
+    Version = '1.0.1'
+    AssemblyVersion = '1.0.1.0'
     DllSha256 = (Get-FileHash -LiteralPath $dll -Algorithm SHA256).Hash
     McgPackageVersion = [string]$mcgPackageVersion
     McgApiVersion = $mcgApiVersion

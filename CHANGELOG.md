@@ -1,8 +1,9 @@
 # Changelog
 
-## Unreleased
+## 1.0.1 — 2026-09-01
 
 - Make the type named by `RegisterModClass` depend only on BAModAPI metadata and defer MCG registration to `OnLoadAsync`, so Workshop discovery does not need to bind the separate MCG assembly while decoding the attribute.
+- Rebuild against MCG 1.0.1 / assembly 1.0.1.0 without bundling the dependency; gameplay, technical IDs and the local-record ruleset are unchanged.
 
 ## 1.0.0
 

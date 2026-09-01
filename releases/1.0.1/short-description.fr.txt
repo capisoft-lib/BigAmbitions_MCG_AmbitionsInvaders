@@ -1,0 +1,1 @@
+Pilotez un billet et tirez sur vos rivaux en pixel art dans Big Ambitions. Records locaux, 22 langues. Nécessite LIB BA More Computer Games (MCG) 1.0.1+ installé et activé ; ne fonctionne pas sans lui.

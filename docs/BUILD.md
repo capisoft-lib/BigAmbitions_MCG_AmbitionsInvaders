@@ -7,7 +7,7 @@ The standalone build produces only `MCG_AmbitionsInvaders/AmbitionsInvaders.dll`
 - Windows and PowerShell 7.
 - A legally installed Mono version of Big Ambitions using Unity **2022.3.62f2 (7670c08855a9)**.
 - The matching Unity Editor, including its bundled compiler and Mono.Cecil tools.
-- A separately built or installed `LIB_BaComputerGames.dll`, API 1.0.0 or newer, compiled for the game's Mono profile, with its matching 1.0.0+ `ModManifest.asset` alongside the DLL (or supplied through `-McgManifest`).
+- A separately built or installed `LIB_BaComputerGames.dll`, API 1.0.1 or newer, compiled for the game's Mono profile, with its matching 1.0.1+ `ModManifest.asset` alongside the DLL (or supplied through `-McgManifest`).
 - .NET 8 SDK for the independent simulation tests.
 
 Provide your own local dependency locations through environment variables or the script parameters. Do not commit these values or copy dependency DLLs into this repository.
@@ -17,7 +17,7 @@ Provide your own local dependency locations through environment variables or the
 dotnet run --project ./tools/Tests~/AmbitionsInvaders.Tests.csproj -c Release
 ```
 
-The build rejects a preview MCG dependency. Manifest/catalog versions must be 1.0.0, and the resulting assembly and file versions must be 1.0.0.0. Its ignored `build-status.json` records dependency versions and hashes without private paths.
+The build rejects a preview MCG dependency. Manifest/catalog versions must be 1.0.1, and the resulting assembly and file versions must be 1.0.1.0. Its ignored `build-status.json` records dependency versions and hashes without private paths.
 
 The build creates a fresh directory beneath ignored `artifacts/` and prints the package location and DLL SHA-256. Share only its `MCG_AmbitionsInvaders` child folder. The parent includes private reference copies and a compiler response file and must never be shared.
 

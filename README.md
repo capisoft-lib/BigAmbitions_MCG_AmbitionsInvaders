@@ -1,6 +1,6 @@
 ![Ambitions Invaders promotional icon](Thumbnail.jpg)
 
-# [MCG] Ambitions Invaders — 1.0.0
+# [MCG] Ambitions Invaders — 1.0.1
 
 Your cash. Their faces. No negotiations.
 
@@ -8,11 +8,13 @@ The cover is promotional artwork, matching the Flappy Ambitions and Snacke serie
 
 A horizontal arcade shooter for the computers in **Big Ambitions**, powered by [More Computer Games (MCG)](https://github.com/capisoft-lib/BigAmbitions_LIB_BA_MoreComputerGames). Fly the banknote from Flappy Ambitions, fire yellow lasers, and take on pixel-art versions of Huang Guo, Ingrid Schneider, Jessica Johnson and Thierry Laurent Moreau.
 
+Version 1.0.1 fixes discovery when both the game and MCG are installed only as separate Workshop items. Gameplay, translations, technical IDs and record rules remain unchanged.
+
 ![Ambitions Invaders in combat, English UI](https://raw.githubusercontent.com/capisoft-lib/BigAmbitions_MCG_AmbitionsInvaders/main/release-assets/screenshots/combat-en.png)
 
 ## Required library — install first
 
-**Ambitions Invaders does not work without [LIB BA More Computer Games (MCG) 1.0.0+](https://steamcommunity.com/sharedfiles/filedetails/?id=3793604724) installed and enabled.** Subscribe to LIB MCG on Steam Workshop, let Steam download it, then enable both MCG and Ambitions Invaders in Big Ambitions' mod list. MCG is the only required mod library; it provides the computer game menu and runs this mini-game.
+**Ambitions Invaders does not work without [LIB BA More Computer Games (MCG) 1.0.1+](https://steamcommunity.com/sharedfiles/filedetails/?id=3793604724) installed and enabled.** Subscribe to LIB MCG on Steam Workshop, let Steam download it, then enable both MCG and Ambitions Invaders in Big Ambitions' mod list. MCG is the only required mod library; it provides the computer game menu and runs this mini-game.
 
 ## Play
 
@@ -30,7 +32,7 @@ On an in-game computer, choose **Play video games**, then **Ambitions Invaders**
 
 Protect your three shield points through progressively harder waves. Collisions, enemy shots and rivals escaping past the left edge cost one point, followed by brief invulnerability. Enemy fire starts at wave two; a boss arrives every four waves. The round ends when your shield is exhausted.
 
-MCG stores local records separately for this game and ruleset. Only completed rounds count; leaving a round does not submit its score. The mod does not access the network or write directly to Big Ambitions saves. Version **1.0.0** has no soundtrack.
+MCG stores local records separately for this game and ruleset. Only completed rounds count; leaving a round does not submit its score. The mod does not access the network or write directly to Big Ambitions saves. Version **1.0.1** has no soundtrack.
 
 ## Screenshots
 
@@ -46,7 +48,7 @@ This repository publishes source code and artwork, not game or dependency binari
 
 For an upgrade from the old `AmbitionsInvaders` folder, move the old folder out of `ModsLocal` first. Keep only one installed copy. The assembly name, mod ID, catalog ID and ruleset are unchanged, so the folder rename does not reset records.
 
-Install and enable **[LIB BA More Computer Games (MCG) 1.0.0+ on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3793604724)** separately. It is the only required mod library, and its DLL is not bundled. Flappy Ambitions is not required. For Steam publication, add this MCG Workshop item to Ambitions Invaders' **Required Items**; see [required mods](REQUIRED_MODS.md).
+Install and enable **[LIB BA More Computer Games (MCG) 1.0.1+ on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3793604724)** separately. It is the only required mod library, and its DLL is not bundled. Flappy Ambitions is not required. For Steam publication, add this MCG Workshop item to Ambitions Invaders' **Required Items**; see [required mods](REQUIRED_MODS.md).
 
 ## Languages
 
@@ -54,7 +56,7 @@ The interface follows Big Ambitions and supports all **22 game languages**: Engl
 
 ## Development and rights
 
-The 1.0.0 release includes a dedicated icon, aligned mod/assembly versions and English/French publication copy. Gameplay, the 22 translations and record identifiers are preserved. See the [changelog](CHANGELOG.md) and [release files](https://github.com/capisoft-lib/BigAmbitions_MCG_AmbitionsInvaders/tree/main/releases/1.0.0). Source publication does not publish a Steam Workshop item.
+The 1.0.1 release includes a dedicated icon, aligned mod/assembly versions and English/French publication copy. Gameplay, the 22 translations and record identifiers are preserved. See the [changelog](CHANGELOG.md) and [release files](https://github.com/capisoft-lib/BigAmbitions_MCG_AmbitionsInvaders/tree/main/releases/1.0.1). Source publication does not publish a Steam Workshop item.
 
 See [build and test instructions](docs/BUILD.md), [verification scope](VERIFICATION.md), and [publication privacy](docs/PRIVACY.md).
 

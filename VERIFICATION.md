@@ -1,8 +1,10 @@
 # Verification scope
 
-## Workshop discovery fix — 2026-09-01
+## Release 1.0.1 — 2026-09-01
 
-All 23 simulation checks and the standalone package build pass against MCG 1.0.0. A matching Unity Mono probe, with `LIB_BaComputerGames.dll` deliberately unavailable, resolves the rebuilt `AmbitionsInvaders.AmbitionsInvadersMod` entry without loading MCG. The build now enforces this BAModAPI-only registered-type metadata contract. No installation, native game launch or Workshop publication was performed.
+Manifest/catalog/informational version **1.0.1** and assembly/file version **1.0.1.0** are aligned. All 23 simulation checks and the 37-file standalone package build pass against MCG package/API **1.0.1**, assembly **1.0.1.0**, SHA-256 `6B111BF45763A424F3A69FD939DF6D12B0DFC276D797B5622EF26A01CDF19051`. Invaders DLL SHA-256: `A3519C0750BF170208300CA6B840154D93060FDC7E0F5BF3F7EB3AF3D40BF2A9`.
+
+A matching Unity Mono probe, with `LIB_BaComputerGames.dll` deliberately unavailable, resolves the rebuilt `AmbitionsInvaders.AmbitionsInvadersMod` entry without loading MCG. The build enforces this BAModAPI-only registered-type metadata contract and ships only Invaders' DLL. No native game launch or Workshop publication was performed.
 
 The following checks cover the 1.0.0 game sources:
 

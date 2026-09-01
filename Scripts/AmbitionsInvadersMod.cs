@@ -35,7 +35,7 @@ namespace AmbitionsInvaders
         {
             var definition = ComputerGameDefinition.Create<AmbitionsInvadersGame>(
                 "capisoft:ambitions-invaders", "Ambitions Invaders", "Pilot your banknote and blast waves of rival tycoons.",
-                version: "1.0.0", loader: new InvadersLoader(), descriptionKey: "invaders_description", ruleset: "invaders-standard-v1")
+                version: "1.0.1", loader: new InvadersLoader(), descriptionKey: "invaders_description", ruleset: "invaders-standard-v1")
                 .WithNativeRetroEffects(false);
             return ComputerGames.Register(context.ModId, context.ModRootPath, definition);
         }
