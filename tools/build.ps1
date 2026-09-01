@@ -106,6 +106,19 @@ try {
     $assemblyRefs = @($built.MainModule.AssemblyReferences.Name)
     if ($assemblyRefs -contains 'netstandard' -or $assemblyRefs -notcontains 'mscorlib') { throw 'Wrong player runtime profile.' }
     if ($assemblyRefs -notcontains 'LIB_BaComputerGames') { throw 'The separate MCG dependency is missing.' }
+    $modEntry = $built.MainModule.GetType('AmbitionsInvaders.AmbitionsInvadersMod')
+    $registerAttributes = @($built.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'BAModAPI.RegisterModClassAttribute' })
+    if (!$modEntry -or $modEntry.BaseType.FullName -ne 'System.Object' -or
+        @($modEntry.Interfaces | Where-Object { $_.InterfaceType.FullName -eq 'BAModAPI.IModBigAmbitions' }).Count -ne 1 -or
+        $registerAttributes.Count -ne 1 -or $registerAttributes[0].ConstructorArguments[0].Value.FullName -ne $modEntry.FullName) {
+        throw 'RegisterModClass must target the BAModAPI-only Invaders entry.'
+    }
+    $entryMetadataTypes = @($modEntry.BaseType) + @($modEntry.Interfaces | ForEach-Object InterfaceType) +
+        @($modEntry.Fields | ForEach-Object FieldType) + @($modEntry.Properties | ForEach-Object PropertyType) +
+        @($modEntry.Methods | ForEach-Object { @($_.ReturnType) + @($_.Parameters | ForEach-Object ParameterType) })
+    if (@($entryMetadataTypes | Where-Object { $_.FullName -like 'Capisoft.Lib.BaComputerGames*' }).Count) {
+        throw 'The registered Invaders entry metadata must resolve without MCG.'
+    }
     if ([string]$built.Name.Version -ne '1.0.0.0') { throw 'Unexpected Invaders assembly version.' }
     $fileVersion = $built.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'System.Reflection.AssemblyFileVersionAttribute' }
     $infoVersion = $built.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'System.Reflection.AssemblyInformationalVersionAttribute' }

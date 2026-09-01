@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Make the type named by `RegisterModClass` depend only on BAModAPI metadata and defer MCG registration to `OnLoadAsync`, so Workshop discovery does not need to bind the separate MCG assembly while decoding the attribute.
+
 ## 1.0.0
 
 - Promote Ambitions Invaders to 1.0.0 in the mod manifest, MCG catalog and assembly metadata.
